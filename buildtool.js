@@ -1118,7 +1118,8 @@
 					side_shop: 0,
 					recipe: 0,
 					localized_name: "Skull Basher",
-					upgrade: 1
+					upgrade: 1,
+					upgrades_to: [208]
 				},
 				{
 					id: 145,
@@ -1183,7 +1184,8 @@
 					side_shop: 0,
 					recipe: 0,
 					localized_name: "Shadow Blade",
-					upgrade: 1
+					upgrade: 1,
+					upgrades_to: [249]
 				},
 				{
 					id: 249,
