@@ -129,7 +129,8 @@
 					secret_shop: 0,
 					side_shop: 1,
 					recipe: 0,
-					localized_name: "Stout Shield"
+					localized_name: "Stout Shield",
+					upgrades_to: [71, 125]
 				},
 				{
 					id: 247,
@@ -293,7 +294,8 @@
 					secret_shop: 0,
 					side_shop: 1,
 					recipe: 0,
-					localized_name: "Boots of Speed"
+					localized_name: "Boots of Speed",
+					upgrades_to: [48, 50, 63, 180, 214]
 				},
 				{
 					id: 30,
@@ -321,7 +323,8 @@
 					secret_shop: 1,
 					side_shop: 0,
 					recipe: 0,
-					localized_name: "Talisman of Evasion"
+					localized_name: "Talisman of Evasion",
+					upgrades_to: [139, 229, 210]
 				},
 				{
 					id: 34,
@@ -330,7 +333,8 @@
 					secret_shop: 0,
 					side_shop: 1,
 					recipe: 0,
-					localized_name: "Magic Stick"
+					localized_name: "Magic Stick",
+					upgrades_to: [36]
 				},
 				{
 					id: 36,
@@ -350,7 +354,8 @@
 					secret_shop: 0,
 					side_shop: 0,
 					recipe: 0,
-					localized_name: "Ghost Scepter"
+					localized_name: "Ghost Scepter",
+					upgrades_to: [176]
 				},
 				{
 					id: 38,
@@ -1379,7 +1384,8 @@
 					secret_shop: 0,
 					side_shop: 1,
 					recipe: 0,
-					localized_name: "Orb of Venom"
+					localized_name: "Orb of Venom",
+					upgrades_to: [160]
 				},
 				{
 					id: 185,
