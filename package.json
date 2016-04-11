@@ -1,0 +1,36 @@
+{
+	"name": "DotaBuildTool",
+	"version": "1.0.0",
+	"description": "Dota 2 tool to help you create your own hero builds",
+	"main": "generatedata.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RichMartel/DotaBuildTool"
+	},
+	"keywords": [
+		"dota",
+		"build",
+		"tool",
+		"scrape",
+		"scraper"
+	],
+	"author": "RichMartel (NoMercy)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/RichMartel/DotaBuildTool/issues"
+	},
+	"homepage": "https://github.com/RichMartel/DotaBuildTool",
+	"dependencies": {
+		"request": "^2",
+		"x-ray": "^2",
+		"lodash": "^4",
+		"async": "^1",
+		"express": "^4"
+	},
+	"devDependencies": {
+		"mocha": "^2"
+	}
+}
