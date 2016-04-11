@@ -1290,7 +1290,8 @@
 					side_shop: 0,
 					recipe: 0,
 					localized_name: "Yasha",
-					upgrade: 1
+					upgrade: 1,
+					upgrades_to: [154, 147]
 				},
 				{
 					id: 172,
