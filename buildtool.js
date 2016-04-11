@@ -2301,7 +2301,7 @@
 			'			</div>' +
 			'			<div>' +
 			'				<div>Build:</div>' +
-			'				<img *ngFor="#item of items_high" src="{{item.image}}" class="img" title="{{item.localized_name}} {{item.cost}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%">' +
+			'				<img *ngFor="#item of items_high" src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%">' +
 			'				<br><br><div *ngIf="items_high_early.length > 0">Early options:</div>' +
 			'				<img *ngFor="#item of items_high_early" src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%">' +
 			'				<br><br><div>Late options:</div>' +
