@@ -2272,7 +2272,7 @@
 		selector: 'bt-app',
 		template: '<br>' +
 			'<div>' +
-			'	<img *ngFor="#hero of heroes" src="{{hero.image}}" class="img card-inverse" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
+			'	<img *ngFor="#hero of heroes" src="{{hero.image}}" class="img" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
 			'</div>' +
 			'<br><div *ngIf="selectedHero">' +
 			'	<div>' +
