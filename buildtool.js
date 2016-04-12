@@ -2272,7 +2272,7 @@
 		selector: 'bt-app',
 		template: '<br>' +
 			'<div>' +
-			'	<img *ngFor="#hero of heroes" src="{{hero.image}}" class="img" width="{{imageWidth}}" (click)="select(hero)" title="Click to show builds for {{hero.localized_name}}">' +
+			'	<img *ngFor="#hero of heroes" src="{{hero.image}}" class="img card-inverse" width="{{imageWidth}}" (click)="select(hero)" title="Click to show builds for {{hero.localized_name}}">' +
 			'</div>' +
 			'<br><div *ngIf="selectedHero">' +
 			'	<div>' +
@@ -2283,7 +2283,7 @@
 			'	</div>' +
 			'	<br>' +
 			'	<div class="row">' +
-			'		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">' +
+			'		<div class="card card-block col-lg-4 col-md-4 col-sm-4 col-xs-12">' +
 			'			<div class="clearfix">' +
 			'				<h3 class="pull-left">All skill</h3>' +
 			'				<div class="pull-right">' +
@@ -2300,7 +2300,7 @@
 			'				<img *ngFor="#item of items_all_late" src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_all * 100).toFixed(0)}}%">' +
 			'			</div>' +
 			'		</div>' +
-			'		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">' +
+			'		<div class="card card-block col-lg-4 col-md-4 col-sm-4 col-xs-12">' +
 			'			<div class="clearfix">' +
 			'				<h3 class="pull-left">High skill</h3>' +
 			'				<div class="pull-right">' +
@@ -2317,7 +2317,7 @@
 			'				<img *ngFor="#item of items_high_late" src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%">' +
 			'			</div>' +
 			'		</div>' +
-			'		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-1">' +
+			'		<div class="card card-block col-lg-4 col-md-4 col-sm-4 col-xs-1">' +
 			'			<div class="clearfix">' +
 			'				<h3 class="pull-left">Pro skill</h3>' +
 			'				<div class="pull-right">' +
