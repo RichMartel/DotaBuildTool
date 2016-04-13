@@ -2290,7 +2290,7 @@
 			'		</div>' +
 			'	</div>' +
 			'	<br>' +
-			'	<div class="row">' +
+			'	<div class="row container-fluid">' +
 			'		<div class="card card-block col-lg-4 col-md-4 col-sm-4 col-xs-12">' +
 			'			<div class="clearfix">' +
 			'				<h3 class="pull-left">All skill</h3>' +
@@ -2343,7 +2343,7 @@
 			'			</div>' +
 			'		</div>' +
 			'	</div>' +
-			'	<div class="card card-block" style="background-color: #ccc; text-shadow: none;">' +
+			'	<div class="card card-block">' +
 			'		<a href="http://dota2.gamepedia.com/{{selectedHero.localized_name}}#Recommended_items">Dota 2 Wiki Recommended Items: {{selectedHero.localized_name}}</a><br>' +
 			'		<a href="http://devilesk.com/dota2/apps/hero-calculator/">devilesk.com Dota 2 Hero Calculator</a><br>' +
 			'		<a href="http://www.dota2.com/workshop/builds">Dota 2 Hero Builds</a><br>' +
