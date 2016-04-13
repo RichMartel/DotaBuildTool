@@ -1546,6 +1546,10 @@
 			this.items = [];
 			for (var i = 0; i < items.length; i++) {
 				items[i].image = 'http://cdn.dota2.com/apps/dota2/images/items/' + items[i].name + '_lg.png';
+				items[i].link = 'http://www.dotabuff.com/items/' + items[i].localized_name.toLowerCase().replace(/ /g, '-').replace(/'/g, '');
+				if (parseInt(items[i].link.charAt(items[i].link.length - 1)) > 1) {
+					items[i].link = items[i].link.slice(0, items[i].link.length - 2) + '-level-' + items[i].link.slice(items[i].link.length - 1);
+				}
 				if (!items[i].component) {
 					items[i].component = 1;
 				}
@@ -2169,6 +2173,7 @@
 							currentItem.id = item.id;
 							currentItem.localized_name = item.localized_name;
 							currentItem.image = item.image;
+							currentItem.link = item.link;
 							currentItem.cost = item.cost;
 							currentItem.secret_shop = item.secret_shop;
 							currentItem.side_shop = item.side_shop;
@@ -2197,6 +2202,7 @@
 							currentItem.id = item.id;
 							currentItem.localized_name = item.localized_name;
 							currentItem.image = item.image;
+							currentItem.link = item.link;
 							currentItem.cost = item.cost;
 							currentItem.secret_shop = item.secret_shop;
 							currentItem.side_shop = item.side_shop;
@@ -2225,6 +2231,7 @@
 							currentItem.id = item.id;
 							currentItem.localized_name = item.localized_name;
 							currentItem.image = item.image;
+							currentItem.link = item.link;
 							currentItem.cost = item.cost;
 							currentItem.secret_shop = item.secret_shop;
 							currentItem.side_shop = item.side_shop;
@@ -2293,11 +2300,11 @@
 			'			</div>' +
 			'			<div>' +
 			'				<div>Build:</div>' +
-			'				<img *ngFor="#item of items_all" src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_all * 100).toFixed(0)}}%">' +
+			'				<a *ngFor="#item of items_all" href="{{item.link}}"><img src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_all * 100).toFixed(0)}}%"></a>' +
 			'				<br><br><div *ngIf="items_all_early.length > 0">Early options:</div>' +
-			'				<img *ngFor="#item of items_all_early" src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_all * 100).toFixed(0)}}%">' +
+			'				<a *ngFor="#item of items_all_early" href="{{item.link}}"><img src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_all * 100).toFixed(0)}}%"></a>' +
 			'				<br><br><div>Late options:</div>' +
-			'				<img *ngFor="#item of items_all_late" src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_all * 100).toFixed(0)}}%">' +
+			'				<a *ngFor="#item of items_all_late" href="{{item.link}}"><img src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_all * 100).toFixed(0)}}%"></a>' +
 			'			</div>' +
 			'		</div>' +
 			'		<div class="card card-block col-lg-4 col-md-4 col-sm-4 col-xs-12">' +
@@ -2310,11 +2317,11 @@
 			'			</div>' +
 			'			<div>' +
 			'				<div>Build:</div>' +
-			'				<img *ngFor="#item of items_high" src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%">' +
+			'				<a *ngFor="#item of items_high" href="{{item.link}}"><img src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%"></a>' +
 			'				<br><br><div *ngIf="items_high_early.length > 0">Early options:</div>' +
-			'				<img *ngFor="#item of items_high_early" src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%">' +
+			'				<a *ngFor="#item of items_high_early" href="{{item.link}}"><img src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%"></a>' +
 			'				<br><br><div>Late options:</div>' +
-			'				<img *ngFor="#item of items_high_late" src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%">' +
+			'				<a *ngFor="#item of items_high_late" href="{{item.link}}"><img src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%"></a>' +
 			'			</div>' +
 			'		</div>' +
 			'		<div class="card card-block col-lg-4 col-md-4 col-sm-4 col-xs-1">' +
@@ -2327,13 +2334,18 @@
 			'			</div>' +
 			'			<div>' +
 			'				<div>Build:</div>' +
-			'				<img *ngFor="#item of items_pro" src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_pro * 100).toFixed(0)}}%">' +
+			'				<a *ngFor="#item of items_pro" href="{{item.link}}"><img src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_pro * 100).toFixed(0)}}%"></a>' +
 			'				<br><br><div *ngIf="items_pro_early.length > 0">Early options:</div>' +
-			'				<img *ngFor="#item of items_pro_early" src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_pro * 100).toFixed(0)}}%">' +
+			'				<a *ngFor="#item of items_pro_early" href="{{item.link}}"><img src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_pro * 100).toFixed(0)}}%"></a>' +
 			'				<br><br><div>Late options:</div>' +
-			'				<img *ngFor="#item of items_pro_late" src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_pro * 100).toFixed(0)}}%">' +
+			'				<a *ngFor="#item of items_pro_late" href="{{item.link}}"><img src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_pro * 100).toFixed(0)}}%"></a>' +
 			'			</div>' +
 			'		</div>' +
+			'	</div>' +
+			'	<div class="card card-block" style="background-color: #ccc; text-shadow: none;">' +
+			'		<a href="http://dota2.gamepedia.com/{{selectedHero.localized_name}}">Dota 2 Wiki: {{selectedHero.localized_name}}</a><br>' +
+			'		<a href="http://devilesk.com/dota2/apps/hero-calculator/">devilesk.com Dota 2 Hero Calculator</a><br>' +
+			'		<a href="http://www.dota2.com/workshop/builds">Dota 2 Hero Builds</a><br>' +
 			'	</div>' +
 			'</div>'
 	})
