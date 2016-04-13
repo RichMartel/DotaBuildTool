@@ -2437,36 +2437,37 @@
 					continue;
 				}
 				if (item.winrate > this.selectedHero.winrate_all) {
-					if (budget > item.cost && numberSlots) {
-						var found = false;
-						for (var j = 0; j < this.items_all.length; j++) {
-							if (this.items_all[j].upgrades_to.indexOf(item.id) > -1 || item.upgrades_to.indexOf(this.items_all[j].id) > -1) {
-								if (this.items_all[j].cost > item.cost) {
-									this.items_all_early.push(item);
-								}
-								else {
-									budget += this.items_all[j].cost;
-									budget -= this.item;
-									this.items_all_early.push(this.items_all[j]);
-									this.items_all[j] = item;
-								}
-								found = true;
+					var found = false;
+					for (var j = 0; j < this.items_all.length; j++) {
+						if (this.items_all[j].upgrades_to.indexOf(item.id) > -1 || item.upgrades_to.indexOf(this.items_all[j].id) > -1) {
+							if (this.items_all[j].cost > item.cost) {
+								this.items_all_early.push(item);
 							}
-							else if (this.items_all[j].no_stack.indexOf(item.id) > -1 || item.no_stack.indexOf(this.items_all[j].id) > -1) {
-								if (item.cost < 2000) {
-									this.items_all_early.push(item);
-								}
-								else {
-									this.items_all_late.push(item);
-								}
-								found = true;
+							else if (budget + this.items_all[j].cost > item.cost) {
+								budget += this.items_all[j].cost;
+								budget -= item.cost;
+								this.items_all_early.push(this.items_all[j]);
+								this.items_all[j] = item;
 							}
+							else {
+								this.items_all_late.push(item);
+							}
+							found = true;
 						}
-						if (!found) {
-							this.items_all.push(item);
-							budget -= item.cost;
-							numberSlots--;
+						else if (this.items_all[j].no_stack.indexOf(item.id) > -1 || item.no_stack.indexOf(this.items_all[j].id) > -1) {
+							if (item.cost < 2000) {
+								this.items_all_early.push(item);
+							}
+							else {
+								this.items_all_late.push(item);
+							}
+							found = true;
 						}
+					}
+					if (budget > item.cost && numberSlots && !found) {
+						this.items_all.push(item);
+						budget -= item.cost;
+						numberSlots--;
 					}
 				}
 			}
@@ -2487,36 +2488,37 @@
 					continue;
 				}
 				if (item.winrate > this.selectedHero.winrate_high) {
-					if (budget > item.cost && numberSlots) {
-						var found = false;
-						for (var j = 0; j < this.items_high.length; j++) {
-							if (this.items_high[j].upgrades_to.indexOf(item.id) > -1 || item.upgrades_to.indexOf(this.items_high[j].id) > -1) {
-								if (this.items_high[j].cost > item.cost) {
-									this.items_high_early.push(item);
-								}
-								else {
-									budget += this.items_high[j].cost;
-									budget -= this.item;
-									this.items_high_early.push(this.items_high[j]);
-									this.items_high[j] = item;
-								}
-								found = true;
+					var found = false;
+					for (var j = 0; j < this.items_high.length; j++) {
+						if (this.items_high[j].upgrades_to.indexOf(item.id) > -1 || item.upgrades_to.indexOf(this.items_high[j].id) > -1) {
+							if (this.items_high[j].cost > item.cost) {
+								this.items_high_early.push(item);
 							}
-							else if (this.items_high[j].no_stack.indexOf(item.id) > -1 || item.no_stack.indexOf(this.items_high[j].id) > -1) {
-								if (item.cost < 2000) {
-									this.items_high_early.push(item);
-								}
-								else {
-									this.items_high_late.push(item);
-								}
-								found = true;
+							else if (budget + this.items_high[j].cost > item.cost) {
+								budget += this.items_high[j].cost;
+								budget -= item.cost;
+								this.items_high_early.push(this.items_high[j]);
+								this.items_high[j] = item;
 							}
+							else {
+								this.items_high_late.push(item);
+							}
+							found = true;
 						}
-						if (!found) {
-							this.items_high.push(item);
-							budget -= item.cost;
-							numberSlots--;
+						else if (this.items_high[j].no_stack.indexOf(item.id) > -1 || item.no_stack.indexOf(this.items_high[j].id) > -1) {
+							if (item.cost < 2000) {
+								this.items_high_early.push(item);
+							}
+							else {
+								this.items_high_late.push(item);
+							}
+							found = true;
 						}
+					}
+					if (budget > item.cost && numberSlots && !found) {
+						this.items_high.push(item);
+						budget -= item.cost;
+						numberSlots--;
 					}
 				}
 			}
@@ -2537,36 +2539,37 @@
 					continue;
 				}
 				if (item.winrate > this.selectedHero.winrate_pro) {
-					if (budget > item.cost && numberSlots) {
-						var found = false;
-						for (var j = 0; j < this.items_pro.length; j++) {
-							if (this.items_pro[j].upgrades_to.indexOf(item.id) > -1 || item.upgrades_to.indexOf(this.items_pro[j].id) > -1) {
-								if (this.items_pro[j].cost > item.cost) {
-									this.items_pro_early.push(item);
-								}
-								else {
-									budget += this.items_pro[j].cost;
-									budget -= this.item;
-									this.items_pro_early.push(this.items_pro[j]);
-									this.items_pro[j] = item;
-								}
-								found = true;
+					var found = false;
+					for (var j = 0; j < this.items_pro.length; j++) {
+						if (this.items_pro[j].upgrades_to.indexOf(item.id) > -1 || item.upgrades_to.indexOf(this.items_pro[j].id) > -1) {
+							if (this.items_pro[j].cost > item.cost) {
+								this.items_pro_early.push(item);
 							}
-							else if (this.items_pro[j].no_stack.indexOf(item.id) > -1 || item.no_stack.indexOf(this.items_pro[j].id) > -1) {
-								if (item.cost < 2000) {
-									this.items_pro_early.push(item);
-								}
-								else {
-									this.items_pro_late.push(item);
-								}
-								found = true;
+							else if (budget + this.items_pro[j].cost > item.cost) {
+								budget += this.items_pro[j].cost;
+								budget -= item.cost;
+								this.items_pro_early.push(this.items_pro[j]);
+								this.items_pro[j] = item;
 							}
+							else {
+								this.items_pro_late.push(item);
+							}
+							found = true;
 						}
-						if (!found) {
-							this.items_pro.push(item);
-							budget -= item.cost;
-							numberSlots--;
+						else if (this.items_pro[j].no_stack.indexOf(item.id) > -1 || item.no_stack.indexOf(this.items_pro[j].id) > -1) {
+							if (item.cost < 2000) {
+								this.items_pro_early.push(item);
+							}
+							else {
+								this.items_pro_late.push(item);
+							}
+							found = true;
 						}
+					}
+					if (budget > item.cost && numberSlots && !found) {
+						this.items_pro.push(item);
+						budget -= item.cost;
+						numberSlots--;
 					}
 				}
 			}
