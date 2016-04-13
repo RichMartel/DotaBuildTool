@@ -2368,6 +2368,7 @@
 			'				<li>Suggested build items are under &quot;Build&quot;</li>' +
 			'				<li>Possible early item options are under &quot;Early options&quot;</li>' +
 			'				<li>Possible late item options are under &quot;Late options&quot;</li>' +
+			'				<li>Item tooltips will give you the following data: itemname (cost) | WR: winrate | BR: buildrate</li>' +
 			'				<li>Right click any item and select &quot;Open link in a new tab&quot; to look up the DotaBuff information for that item' +
 			'			</ul>' +
 			'		</div>' +
