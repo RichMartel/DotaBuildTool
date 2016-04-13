@@ -2343,7 +2343,7 @@
 			'		</div>' +
 			'	</div>' +
 			'	<div class="card card-block" style="background-color: #ccc; text-shadow: none;">' +
-			'		<a href="http://dota2.gamepedia.com/{{selectedHero.localized_name}}">Dota 2 Wiki: {{selectedHero.localized_name}}</a><br>' +
+			'		<a href="http://dota2.gamepedia.com/{{selectedHero.localized_name}}#Recommended_items">Dota 2 Wiki Recommended Items: {{selectedHero.localized_name}}</a><br>' +
 			'		<a href="http://devilesk.com/dota2/apps/hero-calculator/">devilesk.com Dota 2 Hero Calculator</a><br>' +
 			'		<a href="http://www.dota2.com/workshop/builds">Dota 2 Hero Builds</a><br>' +
 			'	</div>' +
