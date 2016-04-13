@@ -12,10 +12,10 @@ img {
 	background-color: #10171c;
 	border-color: #222b34;
 }
-a {
+.card a {
 	color: #94baff;
 	text-shadow: none;
 }
-a:focus, a:hover {
+.card a:focus, a:hover {
 	color: #749add;
 }
