@@ -2360,7 +2360,7 @@
 			'				<li>This is an automatic item build creator for the game <a href="http://blog.dota2.com/">Dota 2</a></li>' +
 			'				<li>It uses statistics (popularity, winrates, etc.) to create the item build listings</li>' +
 			'				<li>There are 3 builds shown for each hero: &quot;All skill&quot; (any MMR), &quot;High skill&quot; (> 3800 MMR), &quot;Pro skill&quot; (tournaments)</li>' +
-			'				<li>It budgets the hero\'s ability to buy items based on the average GPM for that hero and the 35 minute mark</li>' +
+			'				<li>It budgets the hero\'s ability to buy items based on the average GPM for that hero, at that skill, by the 35 minute mark</li>' +
 			'			</ul>' +
 			'			<h4>How to use?</h4>' +
 			'			<ul style="text-shadow: none;">' +
