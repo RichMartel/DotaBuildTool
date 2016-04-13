@@ -2352,7 +2352,7 @@
 			'<div *ngIf="!selectedHero">' +
 			'	<div class="jumbotron" style="color: #222;">' +
 			'		<div class="container-fluid">' +
-			'			<h1 style="text-align: center;">Dota Team Picker</h1>' +
+			'			<h1 style="text-align: center;">Dota Build Tool</h1>' +
 			'			<h3 style="text-align: center;">by <a href="http://steamcommunity.com/id/richmartel/">NoMercy</a></h3>' +
 			'			<br>' +
 			'			<h4>What is this?</h4>' +
