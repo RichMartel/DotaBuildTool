@@ -2447,6 +2447,7 @@
 								else {
 									budget += this.items_all[j].cost;
 									budget -= this.item;
+									this.items_all_early.push(this.items_all[j]);
 									this.items_all[j] = item;
 								}
 								found = true;
@@ -2496,6 +2497,7 @@
 								else {
 									budget += this.items_high[j].cost;
 									budget -= this.item;
+									this.items_high_early.push(this.items_high[j]);
 									this.items_high[j] = item;
 								}
 								found = true;
@@ -2545,6 +2547,7 @@
 								else {
 									budget += this.items_pro[j].cost;
 									budget -= this.item;
+									this.items_pro_early.push(this.items_pro[j]);
 									this.items_pro[j] = item;
 								}
 								found = true;
