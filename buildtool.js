@@ -2279,9 +2279,10 @@
 		selector: 'bt-app',
 		template: '<br>' +
 			'<div>' +
-			'	<img *ngFor="#hero of heroes" src="{{hero.image}}" class="img" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
+			'	<img *ngFor="#hero of heroes" src="{{hero.image}}" class="img card-img" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
 			'</div>' +
-			'<br><div *ngIf="selectedHero">' +
+			'<br>' +
+			'<div *ngIf="selectedHero">' +
 			'	<div>' +
 			'		<div>' +
 			'			<h2 style="text-align: center;">{{selectedHero.localized_name}}</h2>' +
@@ -2346,6 +2347,30 @@
 			'		<a href="http://dota2.gamepedia.com/{{selectedHero.localized_name}}#Recommended_items">Dota 2 Wiki Recommended Items: {{selectedHero.localized_name}}</a><br>' +
 			'		<a href="http://devilesk.com/dota2/apps/hero-calculator/">devilesk.com Dota 2 Hero Calculator</a><br>' +
 			'		<a href="http://www.dota2.com/workshop/builds">Dota 2 Hero Builds</a><br>' +
+			'	</div>' +
+			'</div>' +
+			'<div *ngIf="!selectedHero">' +
+			'	<div class="jumbotron" style="color: #222;">' +
+			'		<div class="container-fluid">' +
+			'			<h1 style="text-align: center;">Dota Team Picker</h1>' +
+			'			<h3 style="text-align: center;">by <a href="http://steamcommunity.com/id/richmartel/">NoMercy</a></h3>' +
+			'			<br>' +
+			'			<h4>What is this?</h4>' +
+			'			<ul style="text-shadow: none;">' +
+			'				<li>This is a automatic item build creator for the game <a href="http://blog.dota2.com/">Dota 2</a></li>' +
+			'				<li>It uses statistics (popularity, winrates, etc.) to create the item build listings</li>' +
+			'				<li>There are 3 builds shown for each hero: &quot;All skill&quot; (any MMR), &quot;High skill&quot; (> 3800 MMR), &quot;Pro skill&quot; (tournaments)</li>' +
+			'				<li>It budgets the hero\'s ability to buy items based on the average GPM for that hero and the 35 minute mark</li>' +
+			'			</ul>' +
+			'			<h4>How to use?</h4>' +
+			'			<ul style="text-shadow: none;">' +
+			'				<li>Click on a hero at the top</li>' +
+			'				<li>Suggested build items are under &quot;Build&quot;</li>' +
+			'				<li>Possible early item options are under &quot;Early options&quot;</li>' +
+			'				<li>Possible late item options are under &quot;Late options&quot;</li>' +
+			'				<li>Right click any item and select &quot;Open link in a new tab&quot; to look up the DotaBuff information for that item' +
+			'			</ul>' +
+			'		</div>' +
 			'	</div>' +
 			'</div>'
 	})
