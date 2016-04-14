@@ -1580,557 +1580,668 @@
 				{
 					"name": "antimage",
 					"id": 1,
-					"localized_name": "Anti-Mage"
+					"localized_name": "Anti-Mage",
+					type: 2
 				},
 				{
 					"name": "axe",
 					"id": 2,
-					"localized_name": "Axe"
+					"localized_name": "Axe",
+					type: 1
 				},
 				{
 					"name": "bane",
 					"id": 3,
-					"localized_name": "Bane"
+					"localized_name": "Bane",
+					type: 3
 				},
 				{
 					"name": "bloodseeker",
 					"id": 4,
-					"localized_name": "Bloodseeker"
+					"localized_name": "Bloodseeker",
+					type: 2
 				},
 				{
 					"name": "crystal_maiden",
 					"id": 5,
-					"localized_name": "Crystal Maiden"
+					"localized_name": "Crystal Maiden",
+					type: 3
 				},
 				{
 					"name": "drow_ranger",
 					"id": 6,
-					"localized_name": "Drow Ranger"
+					"localized_name": "Drow Ranger",
+					type: 2
 				},
 				{
 					"name": "earthshaker",
 					"id": 7,
-					"localized_name": "Earthshaker"
+					"localized_name": "Earthshaker",
+					type: 1
 				},
 				{
 					"name": "juggernaut",
 					"id": 8,
-					"localized_name": "Juggernaut"
+					"localized_name": "Juggernaut",
+					type: 2
 				},
 				{
 					"name": "mirana",
 					"id": 9,
-					"localized_name": "Mirana"
+					"localized_name": "Mirana",
+					type: 2
 				},
 				{
 					"name": "nevermore",
 					"id": 11,
-					"localized_name": "Shadow Fiend"
+					"localized_name": "Shadow Fiend",
+					type: 2
 				},
 				{
 					"name": "morphling",
 					"id": 10,
-					"localized_name": "Morphling"
+					"localized_name": "Morphling",
+					type: 2
 				},
 				{
 					"name": "phantom_lancer",
 					"id": 12,
-					"localized_name": "Phantom Lancer"
+					"localized_name": "Phantom Lancer",
+					type: 2
 				},
 				{
 					"name": "puck",
 					"id": 13,
-					"localized_name": "Puck"
+					"localized_name": "Puck",
+					type: 3
 				},
 				{
 					"name": "pudge",
 					"id": 14,
-					"localized_name": "Pudge"
+					"localized_name": "Pudge",
+					type: 1
 				},
 				{
 					"name": "razor",
 					"id": 15,
-					"localized_name": "Razor"
+					"localized_name": "Razor",
+					type: 2
 				},
 				{
 					"name": "sand_king",
 					"id": 16,
-					"localized_name": "Sand King"
+					"localized_name": "Sand King",
+					type: 1
 				},
 				{
 					"name": "storm_spirit",
 					"id": 17,
-					"localized_name": "Storm Spirit"
+					"localized_name": "Storm Spirit",
+					type: 3
 				},
 				{
 					"name": "sven",
 					"id": 18,
-					"localized_name": "Sven"
+					"localized_name": "Sven",
+					type: 1
 				},
 				{
 					"name": "tiny",
 					"id": 19,
-					"localized_name": "Tiny"
+					"localized_name": "Tiny",
+					type: 1
 				},
 				{
 					"name": "vengefulspirit",
 					"id": 20,
-					"localized_name": "Vengeful Spirit"
+					"localized_name": "Vengeful Spirit",
+					type: 2
 				},
 				{
 					"name": "windrunner",
 					"id": 21,
-					"localized_name": "Windranger"
+					"localized_name": "Windranger",
+					type: 3
 				},
 				{
 					"name": "zuus",
 					"id": 22,
-					"localized_name": "Zeus"
+					"localized_name": "Zeus",
+					type: 3
 				},
 				{
 					"name": "kunkka",
 					"id": 23,
-					"localized_name": "Kunkka"
+					"localized_name": "Kunkka",
+					type: 1
 				},
 				{
 					"name": "lina",
 					"id": 25,
-					"localized_name": "Lina"
+					"localized_name": "Lina",
+					type: 2
 				},
 				{
 					"name": "lich",
 					"id": 31,
-					"localized_name": "Lich"
+					"localized_name": "Lich",
+					type: 3
 				},
 				{
 					"name": "lion",
 					"id": 26,
-					"localized_name": "Lion"
+					"localized_name": "Lion",
+					type: 3
 				},
 				{
 					"name": "shadow_shaman",
 					"id": 27,
-					"localized_name": "Shadow Shaman"
+					"localized_name": "Shadow Shaman",
+					type: 3
 				},
 				{
 					"name": "slardar",
 					"id": 28,
-					"localized_name": "Slardar"
+					"localized_name": "Slardar",
+					type: 1
 				},
 				{
 					"name": "tidehunter",
 					"id": 29,
-					"localized_name": "Tidehunter"
+					"localized_name": "Tidehunter",
+					type: 1
 				},
 				{
 					"name": "witch_doctor",
 					"id": 30,
-					"localized_name": "Witch Doctor"
+					"localized_name": "Witch Doctor",
+					type: 3
 				},
 				{
 					"name": "riki",
 					"id": 32,
-					"localized_name": "Riki"
+					"localized_name": "Riki",
+					type: 2
 				},
 				{
 					"name": "enigma",
 					"id": 33,
-					"localized_name": "Enigma"
+					"localized_name": "Enigma",
+					type: 3
 				},
 				{
 					"name": "tinker",
 					"id": 34,
-					"localized_name": "Tinker"
+					"localized_name": "Tinker",
+					type: 3
 				},
 				{
 					"name": "sniper",
 					"id": 35,
-					"localized_name": "Sniper"
+					"localized_name": "Sniper",
+					type: 2
 				},
 				{
 					"name": "necrolyte",
 					"id": 36,
-					"localized_name": "Necrophos"
+					"localized_name": "Necrophos",
+					type: 3
 				},
 				{
 					"name": "warlock",
 					"id": 37,
-					"localized_name": "Warlock"
+					"localized_name": "Warlock",
+					type: 3
 				},
 				{
 					"name": "beastmaster",
 					"id": 38,
-					"localized_name": "Beastmaster"
+					"localized_name": "Beastmaster",
+					type: 1
 				},
 				{
 					"name": "queenofpain",
 					"id": 39,
-					"localized_name": "Queen of Pain"
+					"localized_name": "Queen of Pain",
+					type: 3
 				},
 				{
 					"name": "venomancer",
 					"id": 40,
-					"localized_name": "Venomancer"
+					"localized_name": "Venomancer",
+					type: 2
 				},
 				{
 					"name": "faceless_void",
 					"id": 41,
-					"localized_name": "Faceless Void"
+					"localized_name": "Faceless Void",
+					type: 2
 				},
 				{
 					"name": "skeleton_king",
 					"id": 42,
-					"localized_name": "Wraith King"
+					"localized_name": "Wraith King",
+					type: 1
 				},
 				{
 					"name": "death_prophet",
 					"id": 43,
-					"localized_name": "Death Prophet"
+					"localized_name": "Death Prophet",
+					type: 3
 				},
 				{
 					"name": "phantom_assassin",
 					"id": 44,
-					"localized_name": "Phantom Assassin"
+					"localized_name": "Phantom Assassin",
+					type: 2
 				},
 				{
 					"name": "pugna",
 					"id": 45,
-					"localized_name": "Pugna"
+					"localized_name": "Pugna",
+					type: 3
 				},
 				{
 					"name": "templar_assassin",
 					"id": 46,
-					"localized_name": "Templar Assassin"
+					"localized_name": "Templar Assassin",
+					type: 2
 				},
 				{
 					"name": "viper",
 					"id": 47,
-					"localized_name": "Viper"
+					"localized_name": "Viper",
+					type: 2
 				},
 				{
 					"name": "luna",
 					"id": 48,
-					"localized_name": "Luna"
+					"localized_name": "Luna",
+					type: 2
 				},
 				{
 					"name": "dragon_knight",
 					"id": 49,
-					"localized_name": "Dragon Knight"
+					"localized_name": "Dragon Knight",
+					type: 1
 				},
 				{
 					"name": "dazzle",
 					"id": 50,
-					"localized_name": "Dazzle"
+					"localized_name": "Dazzle",
+					type: 3
 				},
 				{
 					"name": "rattletrap",
 					"id": 51,
-					"localized_name": "Clockwerk"
+					"localized_name": "Clockwerk",
+					type: 1
 				},
 				{
 					"name": "leshrac",
 					"id": 52,
-					"localized_name": "Leshrac"
+					"localized_name": "Leshrac",
+					type: 3
 				},
 				{
 					"name": "furion",
 					"id": 53,
-					"localized_name": "Nature's Prophet"
+					"localized_name": "Nature's Prophet",
+					type: 3
 				},
 				{
 					"name": "life_stealer",
 					"id": 54,
-					"localized_name": "Lifestealer"
+					"localized_name": "Lifestealer",
+					type: 1
 				},
 				{
 					"name": "dark_seer",
 					"id": 55,
-					"localized_name": "Dark Seer"
+					"localized_name": "Dark Seer",
+					type: 3
 				},
 				{
 					"name": "clinkz",
 					"id": 56,
-					"localized_name": "Clinkz"
+					"localized_name": "Clinkz",
+					type: 2
 				},
 				{
 					"name": "omniknight",
 					"id": 57,
-					"localized_name": "Omniknight"
+					"localized_name": "Omniknight",
+					type: 1
 				},
 				{
 					"name": "enchantress",
 					"id": 58,
-					"localized_name": "Enchantress"
+					"localized_name": "Enchantress",
+					type: 3
 				},
 				{
 					"name": "huskar",
 					"id": 59,
-					"localized_name": "Huskar"
+					"localized_name": "Huskar",
+					type: 1
 				},
 				{
 					"name": "night_stalker",
 					"id": 60,
-					"localized_name": "Night Stalker"
+					"localized_name": "Night Stalker",
+					type: 1
 				},
 				{
 					"name": "broodmother",
 					"id": 61,
-					"localized_name": "Broodmother"
+					"localized_name": "Broodmother",
+					type: 2
 				},
 				{
 					"name": "bounty_hunter",
 					"id": 62,
-					"localized_name": "Bounty Hunter"
+					"localized_name": "Bounty Hunter",
+					type: 2
 				},
 				{
 					"name": "weaver",
 					"id": 63,
-					"localized_name": "Weaver"
+					"localized_name": "Weaver",
+					type: 2
 				},
 				{
 					"name": "jakiro",
 					"id": 64,
-					"localized_name": "Jakiro"
+					"localized_name": "Jakiro",
+					type: 3
 				},
 				{
 					"name": "batrider",
 					"id": 65,
-					"localized_name": "Batrider"
+					"localized_name": "Batrider",
+					type: 3
 				},
 				{
 					"name": "chen",
 					"id": 66,
-					"localized_name": "Chen"
+					"localized_name": "Chen",
+					type: 3
 				},
 				{
 					"name": "spectre",
 					"id": 67,
-					"localized_name": "Spectre"
+					"localized_name": "Spectre",
+					type: 2
 				},
 				{
 					"name": "doom_bringer",
 					"id": 69,
-					"localized_name": "Doom"
+					"localized_name": "Doom",
+					type: 1
 				},
 				{
 					"name": "ancient_apparition",
 					"id": 68,
-					"localized_name": "Ancient Apparition"
+					"localized_name": "Ancient Apparition",
+					type: 3
 				},
 				{
 					"name": "ursa",
 					"id": 70,
-					"localized_name": "Ursa"
+					"localized_name": "Ursa",
+					type: 2
 				},
 				{
 					"name": "spirit_breaker",
 					"id": 71,
-					"localized_name": "Spirit Breaker"
+					"localized_name": "Spirit Breaker",
+					type: 1
 				},
 				{
 					"name": "gyrocopter",
 					"id": 72,
-					"localized_name": "Gyrocopter"
+					"localized_name": "Gyrocopter",
+					type: 2
 				},
 				{
 					"name": "alchemist",
 					"id": 73,
-					"localized_name": "Alchemist"
+					"localized_name": "Alchemist",
+					type: 1
 				},
 				{
 					"name": "invoker",
 					"id": 74,
-					"localized_name": "Invoker"
+					"localized_name": "Invoker",
+					type: 3
 				},
 				{
 					"name": "silencer",
 					"id": 75,
-					"localized_name": "Silencer"
+					"localized_name": "Silencer",
+					type: 3
 				},
 				{
 					"name": "obsidian_destroyer",
 					"id": 76,
-					"localized_name": "Outworld Devourer"
+					"localized_name": "Outworld Devourer",
+					type: 3
 				},
 				{
 					"name": "lycan",
 					"id": 77,
-					"localized_name": "Lycan"
+					"localized_name": "Lycan",
+					type: 1
 				},
 				{
 					"name": "brewmaster",
 					"id": 78,
-					"localized_name": "Brewmaster"
+					"localized_name": "Brewmaster",
+					type: 1
 				},
 				{
 					"name": "shadow_demon",
 					"id": 79,
-					"localized_name": "Shadow Demon"
+					"localized_name": "Shadow Demon",
+					type: 3
 				},
 				{
 					"name": "lone_druid",
 					"id": 80,
-					"localized_name": "Lone Druid"
+					"localized_name": "Lone Druid",
+					type: 2
 				},
 				{
 					"name": "chaos_knight",
 					"id": 81,
-					"localized_name": "Chaos Knight"
+					"localized_name": "Chaos Knight",
+					type: 3
 				},
 				{
 					"name": "meepo",
 					"id": 82,
-					"localized_name": "Meepo"
+					"localized_name": "Meepo",
+					type: 2
 				},
 				{
 					"name": "treant",
 					"id": 83,
-					"localized_name": "Treant Protector"
+					"localized_name": "Treant Protector",
+					type: 1
 				},
 				{
 					"name": "ogre_magi",
 					"id": 84,
-					"localized_name": "Ogre Magi"
+					"localized_name": "Ogre Magi",
+					type: 3
 				},
 				{
 					"name": "undying",
 					"id": 85,
-					"localized_name": "Undying"
+					"localized_name": "Undying",
+					type: 1
 				},
 				{
 					"name": "rubick",
 					"id": 86,
-					"localized_name": "Rubick"
+					"localized_name": "Rubick",
+					type: 3
 				},
 				{
 					"name": "disruptor",
 					"id": 87,
-					"localized_name": "Disruptor"
+					"localized_name": "Disruptor",
+					type: 3
 				},
 				{
 					"name": "nyx_assassin",
 					"id": 88,
-					"localized_name": "Nyx Assassin"
+					"localized_name": "Nyx Assassin",
+					type: 2
 				},
 				{
 					"name": "naga_siren",
 					"id": 89,
-					"localized_name": "Naga Siren"
+					"localized_name": "Naga Siren",
+					type: 2
 				},
 				{
 					"name": "keeper_of_the_light",
 					"id": 90,
-					"localized_name": "Keeper of the Light"
+					"localized_name": "Keeper of the Light",
+					type: 3
 				},
 				{
 					"name": "wisp",
 					"id": 91,
-					"localized_name": "Io"
+					"localized_name": "Io",
+					type: 1
 				},
 				{
 					"name": "visage",
 					"id": 92,
-					"localized_name": "Visage"
+					"localized_name": "Visage",
+					type: 3
 				},
 				{
 					"name": "slark",
 					"id": 93,
-					"localized_name": "Slark"
+					"localized_name": "Slark",
+					type: 2
 				},
 				{
 					"name": "medusa",
 					"id": 94,
-					"localized_name": "Medusa"
+					"localized_name": "Medusa",
+					type: 2
 				},
 				{
 					"name": "troll_warlord",
 					"id": 95,
-					"localized_name": "Troll Warlord"
+					"localized_name": "Troll Warlord",
+					type: 2
 				},
 				{
 					"name": "centaur",
 					"id": 96,
-					"localized_name": "Centaur Warrunner"
+					"localized_name": "Centaur Warrunner",
+					type: 1
 				},
 				{
 					"name": "magnataur",
 					"id": 97,
-					"localized_name": "Magnus"
+					"localized_name": "Magnus",
+					type: 1
 				},
 				{
 					"name": "shredder",
 					"id": 98,
-					"localized_name": "Timbersaw"
+					"localized_name": "Timbersaw",
+					type: 1
 				},
 				{
 					"name": "bristleback",
 					"id": 99,
-					"localized_name": "Bristleback"
+					"localized_name": "Bristleback",
+					type: 1
 				},
 				{
 					"name": "tusk",
 					"id": 100,
-					"localized_name": "Tusk"
+					"localized_name": "Tusk",
+					type: 1
 				},
 				{
 					"name": "skywrath_mage",
 					"id": 101,
-					"localized_name": "Skywrath Mage"
+					"localized_name": "Skywrath Mage",
+					type: 3
 				},
 				{
 					"name": "abaddon",
 					"id": 102,
-					"localized_name": "Abaddon"
+					"localized_name": "Abaddon",
+					type: 1
 				},
 				{
 					"name": "elder_titan",
 					"id": 103,
-					"localized_name": "Elder Titan"
+					"localized_name": "Elder Titan",
+					type: 1
 				},
 				{
 					"name": "legion_commander",
 					"id": 104,
-					"localized_name": "Legion Commander"
+					"localized_name": "Legion Commander",
+					type: 1
 				},
 				{
 					"name": "ember_spirit",
 					"id": 106,
-					"localized_name": "Ember Spirit"
+					"localized_name": "Ember Spirit",
+					type: 2
 				},
 				{
 					"name": "earth_spirit",
 					"id": 107,
-					"localized_name": "Earth Spirit"
+					"localized_name": "Earth Spirit",
+					type: 1
 				},
 				{
 					"name": "terrorblade",
 					"id": 109,
-					"localized_name": "Terrorblade"
+					"localized_name": "Terrorblade",
+					type: 2
 				},
 				{
 					"name": "phoenix",
 					"id": 110,
-					"localized_name": "Phoenix"
+					"localized_name": "Phoenix",
+					type: 1
 				},
 				{
 					"name": "oracle",
 					"id": 111,
-					"localized_name": "Oracle"
+					"localized_name": "Oracle",
+					type: 3
 				},
 				{
 					"name": "techies",
 					"id": 105,
-					"localized_name": "Techies"
+					"localized_name": "Techies",
+					type: 3
 				},
 				{
 					"name": "winter_wyvern",
 					"id": 112,
-					"localized_name": "Winter Wyvern"
+					"localized_name": "Winter Wyvern",
+					type: 3
 				},
 				{
 					"name": "arc_warden",
 					"id": 113,
-					"localized_name": "Arc Warden"
+					"localized_name": "Arc Warden",
+					type: 2
 				}
 			]
 			this.heroes = [];
@@ -2278,8 +2389,16 @@
 	app.AppComponent = ng.core.Component({
 		selector: 'bt-app',
 		template: '<br>' +
-			'<div>' +
-			'	<img *ngFor="#hero of heroes" src="{{hero.image}}" class="img card-img" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
+			'<div class="row">' +
+			'	<div class="col-md-4">' +
+			'		<img *ngFor="#hero of heroes_str" src="{{hero.image}}" class="img card-img" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
+			'	</div>' +
+			'	<div class="col-md-4">' +
+			'		<img *ngFor="#hero of heroes_agi" src="{{hero.image}}" class="img card-img" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
+			'	</div>' +
+			'	<div class="col-md-4">' +
+			'		<img *ngFor="#hero of heroes_int" src="{{hero.image}}" class="img card-img" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
+			'	</div>' +
 			'</div>' +
 			'<br>' +
 			'<div *ngIf="selectedHero">' +
@@ -2300,7 +2419,7 @@
 			'				</div>' +
 			'			</div>' +
 			'			<div>' +
-			'				<div>Build:</div>' +
+			'				<div>Build budget: {{(selectedHero.gpm_all * endGame).toFixed(0)}}</div>' +
 			'				<a *ngFor="#item of items_all" href="{{item.link}}"><img src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_all * 100).toFixed(0)}}%"></a>' +
 			'				<br><br><div *ngIf="items_all_early.length > 0">Early options:</div>' +
 			'				<a *ngFor="#item of items_all_early" href="{{item.link}}"><img src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_all * 100).toFixed(0)}}%"></a>' +
@@ -2317,7 +2436,7 @@
 			'				</div>' +
 			'			</div>' +
 			'			<div>' +
-			'				<div>Build:</div>' +
+			'				<div>Build budget: {{(selectedHero.gpm_high * endGame).toFixed(0)}}:</div>' +
 			'				<a *ngFor="#item of items_high" href="{{item.link}}"><img src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%"></a>' +
 			'				<br><br><div *ngIf="items_high_early.length > 0">Early options:</div>' +
 			'				<a *ngFor="#item of items_high_early" href="{{item.link}}"><img src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%"></a>' +
@@ -2334,7 +2453,7 @@
 			'				</div>' +
 			'			</div>' +
 			'			<div>' +
-			'				<div>Build:</div>' +
+			'				<div>Build budget: {{(selectedHero.gpm_pro * endGame).toFixed(0)}}:</div>' +
 			'				<a *ngFor="#item of items_pro" href="{{item.link}}"><img src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_pro * 100).toFixed(0)}}%"></a>' +
 			'				<br><br><div *ngIf="items_pro_early.length > 0">Early options:</div>' +
 			'				<a *ngFor="#item of items_pro_early" href="{{item.link}}"><img src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_pro * 100).toFixed(0)}}%"></a>' +
@@ -2378,6 +2497,24 @@
 	.Class({
 		constructor: [app.HeroService, function(heroService) {
 			this.heroes = heroService.getHeroes();
+			this.heroes_str = [];
+			this.heroes_agi = [];
+			this.heroes_int = [];
+			for (var i = 0; i < this.heroes.length; i++) {
+				switch (this.heroes[i].type) {
+					case 1:
+						this.heroes_str.push(this.heroes[i]);
+						break;
+					case 2:
+						this.heroes_agi.push(this.heroes[i]);
+						break;
+					case 3:
+						this.heroes_int.push(this.heroes[i]);
+						break;
+					default:
+						console.log(this.heroes[i].localized_name);
+				}
+			}
 			this.expLevels = [0, 200, 500, 900, 1400, 2000, 2600, 3200, 4400, 5400, 6000, 8200, 9000, 10400, 11900, 13500, 15200, 17000, 18900, 20900, 23000, 25200, 27500, 29900, 32400];
 			this.selectedHero = null;
 			this.selectedImage = null;
