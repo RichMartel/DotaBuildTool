@@ -2436,7 +2436,7 @@
 			'				</div>' +
 			'			</div>' +
 			'			<div>' +
-			'				<div>Build budget: {{(selectedHero.gpm_high * endGame).toFixed(0)}}:</div>' +
+			'				<div>Build budget: {{(selectedHero.gpm_high * endGame).toFixed(0)}}</div>' +
 			'				<a *ngFor="#item of items_high" href="{{item.link}}"><img src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%"></a>' +
 			'				<br><br><div *ngIf="items_high_early.length > 0">Early options:</div>' +
 			'				<a *ngFor="#item of items_high_early" href="{{item.link}}"><img src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_high * 100).toFixed(0)}}%"></a>' +
@@ -2453,7 +2453,7 @@
 			'				</div>' +
 			'			</div>' +
 			'			<div>' +
-			'				<div>Build budget: {{(selectedHero.gpm_pro * endGame).toFixed(0)}}:</div>' +
+			'				<div>Build budget: {{(selectedHero.gpm_pro * endGame).toFixed(0)}}</div>' +
 			'				<a *ngFor="#item of items_pro" href="{{item.link}}"><img src="{{item.image}}" class="img" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_pro * 100).toFixed(0)}}%"></a>' +
 			'				<br><br><div *ngIf="items_pro_early.length > 0">Early options:</div>' +
 			'				<a *ngFor="#item of items_pro_early" href="{{item.link}}"><img src="{{item.image}}" class="img" width="{{imageWidth}}" title="{{item.localized_name}} ({{item.cost}}) | WR: {{item.winrate.toFixed(0)}}% | BR: {{(item.matches / selectedHero.matches_pro * 100).toFixed(0)}}%"></a>' +
