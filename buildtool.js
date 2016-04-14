@@ -2055,7 +2055,7 @@
 					"name": "chaos_knight",
 					"id": 81,
 					"localized_name": "Chaos Knight",
-					type: 3
+					type: 1
 				},
 				{
 					"name": "meepo",
