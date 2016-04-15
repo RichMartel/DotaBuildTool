@@ -2391,13 +2391,13 @@
 		template: '<br>' +
 			'<div class="row">' +
 			'	<div class="col-md-4">' +
-			'		<img *ngFor="#hero of heroes_str" src="{{hero.image}}" class="img card-img" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
+			'		<img *ngFor="#hero of heroes_str" src="{{hero.image}}" class="img card-img" style="cursor: pointer;" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
 			'	</div>' +
 			'	<div class="col-md-4">' +
-			'		<img *ngFor="#hero of heroes_agi" src="{{hero.image}}" class="img card-img" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
+			'		<img *ngFor="#hero of heroes_agi" src="{{hero.image}}" class="img card-img" style="cursor: pointer;" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
 			'	</div>' +
 			'	<div class="col-md-4">' +
-			'		<img *ngFor="#hero of heroes_int" src="{{hero.image}}" class="img card-img" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
+			'		<img *ngFor="#hero of heroes_int" src="{{hero.image}}" class="img card-img" style="cursor: pointer;" width="{{imageWidth}}" (click)="select(hero)" title="{{hero.localized_name}}">' +
 			'	</div>' +
 			'</div>' +
 			'<br>' +
